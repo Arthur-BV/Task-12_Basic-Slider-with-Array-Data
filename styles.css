@@ -1,0 +1,38 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 500px;
+}
+
+.prev {
+  background-color: beige;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  height: 500px;
+}
+
+.slider {
+  background-color: burlywood;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  height: 500px;
+}
+
+.next {
+  background-color: beige;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  height: 500px;
+}

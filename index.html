@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Basic Slider with Array Data</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div class="main">
+            <div class="prev">
+                <a href="#" onclick="change('display', 'prev')"><< PREV</a>
+            </div>
+            <div class="slider" id="display_frame" name="display_frame">
+                <img
+                    src="./images/01.jpg"
+                    alt="Image"
+                    srcset=""
+                    id="display"
+                    name="display"
+                />
+            </div>
+            <div class="next">
+                <a href="#" onclick="change('display', 'next')">NEXT >></a>
+            </div>
+        </div>
+    </body>
+    <script src="./index.js"></script>
+</html>
