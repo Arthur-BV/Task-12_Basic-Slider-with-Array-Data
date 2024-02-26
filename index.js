@@ -8,12 +8,7 @@ const images = [
     "./images/07.jpg",
 ];
 const slides_count = 7;
-const prev = function () {
-    const display = document.getElementById(arguments[0]);
-    let current = display.src;
 
-    console.log(current);
-};
 const change = function () {
     const display = document.getElementById(arguments[0]);
     const direction = arguments[1];
