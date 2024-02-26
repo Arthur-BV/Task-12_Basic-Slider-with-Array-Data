@@ -1,0 +1,1 @@
+# Task-12_Implement-a-Basic-Slider-with-Array-Data
